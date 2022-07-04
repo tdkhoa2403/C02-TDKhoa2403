@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+body {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 30px;
+}
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.basic-infomation_title {
+    position: relative;
+    top: 34px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+}
+.basic-infomation {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 15px;
+    padding-top: 20px;
+}
+.basic-infomation > div {
+    margin-bottom: 20px;
+}
+.gender {
+    display: flex;
+}
+.gender h2, .gender p {
+    padding-right: 10px;
+}
+.gender input {
+    margin: 0 5px;
+}
+
+.contact-infomation_title {
+    position: relative;
+    top: 34px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 15px;
+}
+.contact-infomation {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 15px;
+    padding-top: 20px;
+}
+.contact-infomation > div {
+    margin-bottom: 20px;
+}
